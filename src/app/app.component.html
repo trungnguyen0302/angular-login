@@ -1,0 +1,6 @@
+<div *ngIf="!logInSuccess">
+  <log-in (logInEvent)="logInEvent($event)"></log-in>
+</div>
+<div *ngIf="logInSuccess"> 
+  Welcome!
+</div>
